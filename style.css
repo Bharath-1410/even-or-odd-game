@@ -1,0 +1,56 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    overflow: hidden;
+    color: black;
+    background-color: hsl(204, 63%, 76%);
+}
+.content{
+    width: 90%;
+    box-shadow:  7px 7px 7px #bebebe,
+    -7px -7px 7px #f4f4f4;
+    padding: 2rem 2rem;
+}
+.play{
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+}
+.play div{
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    gap: 1rem;
+}
+.circle{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    background-color: #e6e7ee;
+    box-shadow:  7px 7px 7px #d2d2d2,
+    -7px -7px 7px #ffffff;
+    
+}
+.events{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+.events button{
+    text-align: center;
+    height: 3rem;
+    border-radius: 8px;
+    background-color: #e6e7ee;
+    font-weight: 600;
+    padding: 0.3rem 1.5rem ;
+    border: none;
+    box-shadow:  7px 7px 7px #d2d2d2,
+    -7px -7px 7px #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.events button:hover{
+    box-shadow:  inset  7px 7px 7px #d2d2d2,
+    inset  -7px -7px 7px white;
+}
